@@ -44,5 +44,16 @@ questions =  [
     {"id": 42, "question": "Victimless crimes should still be punished.", "effects": {"prog": -1}},
     {"id": 43, "question": "One cannot be moral without religion.", "effects": {"prog": -1}},
     {"id": 44, "question": "Parents should hold absolute power over their children, as they are older and more experienced.", "effects": {"prog": -1}},
-    {"id": 45, "question": "Multiculturalism is bad.", "effects": {"prog": -1}}
+    {"id": 45, "question": "Multiculturalism is bad.", "effects": {"prog": -1}},
+    {"id": 46, "question": "Private property is theft.", "effects": {"left": 1}},
+    {"id": 47, "question": "Workers should democratically control the means of production.", "effects": {"left": 1}},
+    {"id": 48, "question": "Inheritance is a form of privilege that should be abolished.", "effects": {"left": 1}},
+    {"id": 49, "question": "It is the responsibility of the wealthy to support the less fortunate.", "effects": {"left": 1}},
+    {"id": 50, "question": "The government should provide free healthcare to all citizens.", "effects": {"left": 1}},
+    {"id": 51, "question": "Basic necessities such as food, shelter, and education should be provided to all regardless of ability to pay.", "effects": {"left": 1}},
+    {"id": 52, "question": "Taxation should be progressive, with higher rates for those who earn more.", "effects": {"left": 1}},
+    {"id": 53, "question": "Universal Basic Income is a good idea.", "effects": {"left": 1}},
+    {"id": 54, "question": "The government should not have the right to spy on its citizens.", "effects": {"auth": -2}},
+    {"id": 55, "question": "Religious conquests are perfectly moral.", "effects": {"prog": -3, "right": 1}},
+    {"id": 56, "question": "The slave trade was perfectly normal because everyone did it", "effects": {"prog": -2, "auth": 3}}
 ];
