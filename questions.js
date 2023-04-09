@@ -55,5 +55,9 @@ questions =  [
     {"id": 53, "question": "Universal Basic Income is a good idea.", "effects": {"left": 1}},
     {"id": 54, "question": "The government should not have the right to spy on its citizens.", "effects": {"auth": -2}},
     {"id": 55, "question": "Religious conquests are perfectly moral.", "effects": {"prog": -3, "right": 1}},
-    {"id": 56, "question": "The slave trade was perfectly normal because everyone did it", "effects": {"prog": -2, "auth": 3}}
+    {"id": 56, "question": "The slave trade was perfectly normal because everyone did it", "effects": {"prog": -2, "auth": 3}},
+    {"id": 57, "question": "The government should prioritize economic growth even if it means sacrificing environmental protections.", "effects": {"prog": -1}},
+    {"id": 58, "question": "Corporations should have the right to contribute unlimited amounts of money to political campaigns.", "effects": {"auth": 1}},
+    {"id": 59, "question": "Climate change is a hoax made by leftists to try and limit the free market.", "effects": {"right": 2, "prog": -1}},
+    {"id": 60, "question": "Social welfare programs create a culture of dependence and should be minimized or eliminated.", "effects": {"right": 1}}
 ];
