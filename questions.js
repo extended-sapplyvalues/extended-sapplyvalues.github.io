@@ -59,5 +59,12 @@ questions =  [
     {"id": 57, "question": "The government should prioritize economic growth even if it means sacrificing environmental protections.", "effects": {"prog": -1}},
     {"id": 58, "question": "Corporations should have the right to contribute unlimited amounts of money to political campaigns.", "effects": {"auth": 1}},
     {"id": 59, "question": "Climate change is a hoax made by leftists to try and limit the free market.", "effects": {"right": 2, "prog": -1}},
-    {"id": 60, "question": "Social welfare programs create a culture of dependence and should be minimized or eliminated.", "effects": {"right": 1}}
+    {"id": 60, "question": "Social welfare programs create a culture of dependence and should be minimized or eliminated.", "effects": {"right": 1}},
+    {"id": 61, "question": "Private companies should not be allowed to profit from healthcare or education.", "effects": {"left": 1}},
+    {"id": 62, "question": "Access to clean water is a basic human right.", "effects": {"left": 1}},
+    {"id": 63, "question": "Capital punishment is an effective deterrent to crime.", "effects": {"auth": 1}},
+    {"id": 64, "question": "The minimum wage should be raised to a living wage.", "effects": {"left": 1}},
+    {"id": 65, "question": "Anarchist thought cannot work in the world today.", "effects": {"auth": 1}},
+    {"id": 66, "question": "A woman should have the right to choose whether or not to have an abortion", "effects": {"auth": -1}},
+    {"id": 67, "question": "All forms of discrimination should be outlawed, including discrimination based on sexual orientation and gender identity.", "effects": {"left": 0.5, "auth": -1}}
 ];
