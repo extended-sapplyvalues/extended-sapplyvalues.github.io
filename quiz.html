@@ -65,9 +65,12 @@
     var questionsOrder = Object.keys(questionsObject); //Array of shuffled question IDs
 
     const urlParams = new URLSearchParams(window.location.search);
+	
     if(urlParams.get("short") == "true") { 
 	console.log("urlParams is true");
+	console.log("Length of questionsOrder before slice():", questionsOrder.length);
 	questionsOrder = questionsOrder.slice(0, 45);
+	console.log("Length of questionsOrder after slice():", questionsOrder.length);
     }
 	
     if (urlParams.get("shuffle") == "true") {
