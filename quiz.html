@@ -66,7 +66,8 @@
 
     const urlParams = new URLSearchParams(window.location.search);
     if(urlParams.get("short") == "true") { 
-	questionsOrder.slice(0, 45);
+	console.log("urlParams is true");
+	questionsOrder = questionsOrder.slice(0, 45);
     }
 	
     if (urlParams.get("shuffle") == "true") {
